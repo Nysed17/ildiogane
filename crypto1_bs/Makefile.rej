@@ -1,0 +1,17 @@
+***************
+*** 7,13 ****
+  
+  CC     = gcc
+  
+- CFLAGS = -std=gnu99 -O3 -march=native
+  
+  all: solve_bs solve_piwi_bs solve_piwi libnfc_crypto1_crack
+  
+--- 7,13 ----
+  
+  CC     = gcc
+  
++ CFLAGS = -std=gnu99 -O3 -march=native -fcommon
+  
+  all: solve_bs solve_piwi_bs solve_piwi libnfc_crypto1_crack
+  
